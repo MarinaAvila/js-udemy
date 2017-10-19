@@ -8,9 +8,13 @@
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: $pure-black;
-  color: $pure-white;
+  background-color: $pure-white;
+  color: $pure-black;
   font-family: 'Open Sans', sans-serif;
+
+  hr {
+    border: 1px solid blue;
+  }
 
   ul { 
     list-style: none;
@@ -29,7 +33,7 @@ body {
     background: none;
     border: 0;
     box-sizing: content-box;
-    color: inherit;
+    color: red;
     outline: none;
     padding: 0;
   }
